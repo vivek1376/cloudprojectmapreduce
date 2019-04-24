@@ -1,5 +1,5 @@
 # Hadoop data analysis
-*Use Map-Reduce with streaming API to process data file in csv format on a hadoop cluster*
+*Use Map-Reduce with streaming API to process data file (in csv format) on a hadoop cluster*
 
 ### To run the map-reduce job:
 - Clone repo
@@ -8,5 +8,5 @@
 
 ### Description
 
-- **Mapper**: From each line in data file, extracts upto five vehicle types (if present) through means of a regex
+- **Mapper**: From each line in data file, extracts upto five vehicle types (if present), through means of a regex
 - **Reducer**: Sums count of all similar vehicle types and prints output to file
